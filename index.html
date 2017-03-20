@@ -34,7 +34,12 @@
     <div class="reveal">
       <div class="slides">
         <section>
-          <p style="font-size:50px;">Advanced javascript</p>
+          <h2>Advanced Javascript &amp; ES6</h2>
+          <h5 style="text-transform:none">by Sukanta Mangal</h5>
+          <p>Web Engineer at Kreeti Technologies</p>
+        </section>
+        <section>
+          <p style="font-size:50px;">Topics</p>
           <ul>
             <li>
               1: Prototype
@@ -715,10 +720,17 @@ eat(); // undefined
 function Animal() { }
 Animal.prototype.speak = function() {
   return this;
+<<<<<<< HEAD
 }
 Animal.eat = function() {
   return this;
 }
+=======
+}
+Animal.eat = function() {
+  return this;
+}
+>>>>>>> advanced_js_slides
 let obj = new Animal();
 let speak = obj.speak;
 speak(); // global object
